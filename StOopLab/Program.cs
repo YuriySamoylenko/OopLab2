@@ -10,7 +10,7 @@ bool isRunning = true;
 while (isRunning)
 {
     Console.WriteLine();
-    Console.WriteLine("Menu");
+    Console.WriteLine("Menu (2)");
     Console.WriteLine(@"
 1 – Додати об’єкт
 2 – Переглянути всі об’єкти

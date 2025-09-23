@@ -8,7 +8,6 @@
         private DateTime refillDate;
         private MachineState state = MachineState.RequiresRefill;
         private int waterLeftLiters;
-        private string? address;
         private string? operatorName;
         private string? phone;
         private string? companyName;
@@ -126,7 +125,7 @@
 
         public string Move(string newAddress)
         {
-            address = newAddress;
+            Address = newAddress;
             return $"New address - {newAddress}";
         }
 
@@ -137,7 +136,7 @@
 
         public override string ToString()
         {
-            return $"{this.companyName}, {this.operatorName}, {this.address}";
+            return $"{this.companyName}, {this.operatorName}, {this.Address}";
         }
 
         private void ValidateValue(string? value, int from, int to, string propName)
