@@ -162,7 +162,7 @@ void DemoFull()
 6 - How many water sold (calculated property example)
 0 – Exit to main menu");
         Console.WriteLine();
-        var findNumber = ReadUserNumber("Enter menu number: ", 0, 5);
+        var findNumber = ReadUserNumber("Enter menu number: ", 0, 6);
         switch (findNumber)
         {
             case 1:

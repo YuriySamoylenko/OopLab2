@@ -103,7 +103,7 @@
                 return waterLeftLiters;
             }
 
-            waterLeftLiters += volume;
+            waterLeftLiters -= volume;
             return volume;
         }
 
